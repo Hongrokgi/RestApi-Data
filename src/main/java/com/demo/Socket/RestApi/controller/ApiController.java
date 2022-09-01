@@ -1,8 +1,8 @@
 package com.demo.Socket.RestApi.controller;
 
-import com.demo.Socket.RestApi.dto.Face774Dto;
-import com.demo.Socket.RestApi.dto.HeartbeatDto;
-import com.demo.Socket.RestApi.dto.Body774Dto;
+import com.demo.Socket.RestApi.domain.dto.Face774Dto;
+import com.demo.Socket.RestApi.domain.dto.HeartbeatDto;
+import com.demo.Socket.RestApi.domain.dto.Body774Dto;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;

@@ -1,4 +1,4 @@
-package com.demo.Socket.RestApi.dto;
+package com.demo.Socket.RestApi.domain.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
@@ -15,7 +15,7 @@ public class Body774Dto {
     private BodyAttr bodyAttr;              // When obj_label is 2, body attributes
 
     @JsonProperty("camera_name")
-    private String CameraName;              // Camera name
+    private String cameraName;              // Camera name
 
     @JsonProperty("channel")
     private String channel;                 // Channel; M4s range:[1,16], M8s range[1,32]
